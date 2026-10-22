@@ -1,0 +1,42 @@
+{
+  "name": "cleared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "i18n:build": "node scripts/build-i18n.mjs",
+    "assets:fetch": "node scripts/fetch-assets.mjs",
+    "assets:frames": "node scripts/build-frames.mjs",
+    "sequences:build": "node scripts/build-sequences.mjs",
+    "measure": "node scripts/measure.mjs"
+  },
+  "dependencies": {
+    "@lingui/core": "^6.10.0",
+    "@lingui/react": "^6.10.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "@vitest/coverage-v8": "^3.2.7",
+    "oxlint": "^1.88.0",
+    "playwright-core": "^1.62.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vitest": "^3.2.7"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  },
+  "description": "CLEARED \u2014 a scroll-scrubbed illustrated satire about forest fires in Kalimantan."
+}

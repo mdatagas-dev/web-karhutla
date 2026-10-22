@@ -1,0 +1,10 @@
+{
+  "fps": 24,
+  "sequences": {
+    "signature-bridge": 192,
+    "handshake-bridge": 192,
+    "puppeteer-bridge": 192,
+    "opening": 360,
+    "ending": 240
+  }
+}
