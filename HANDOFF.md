@@ -1,5 +1,11 @@
 # HANDOFF — CLEARED (opencode)
 
+## 2026-10-22 — Publikasi repositori baru ke GitHub mdatagas-dev/web-karhutla [DONE]
+- Pelaksana: Antigravity
+- Area: Git repository & GitHub remote
+- Rincian: Repositori lokal diinisialisasi di branch `main`, remote diatur ke `https://github.com/mdatagas-dev/web-karhutla.git`, dan seluruh kode sumber beserta aset publik (2.352 frame sequence WebP dan HD still/video) berhasil di-push.
+- URL repositori: https://github.com/mdatagas-dev/web-karhutla
+
 ## 2026-10-22 — Pembuatan dokumentasi teknis komprehensif DOCUMENTATION.md [DONE]
 - Pelaksana: Antigravity
 - Area: `DOCUMENTATION.md`
